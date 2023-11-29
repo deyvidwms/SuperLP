@@ -18,7 +18,7 @@
   flex-direction: row;
   justify-content: center;
 
-  padding: 132px 0;
+  padding: 132px 30px;
 
   background-color: #6819931a;
 }
@@ -89,7 +89,6 @@
 
 .section-description>.description--content {
   max-width: 1300;
-
 }
 
 .content--description {
@@ -156,4 +155,68 @@
   align-items: center;
   margin-bottom: 40px;
   margin-top: 80px;
+}
+
+@media (max-width: 1200px) {
+  .section-banner>.banner--content {
+    flex-direction: column;
+  }
+  .content--description>.description--content {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .description--content>.content--images {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .footer {
+    max-width: 100%;
+  }
+  .description--content>.description--line {
+    max-width: 100%;
+  }
+  .banner--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner--description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-banner {
+    padding: 30px;
+  }
+
+  .banner--description>.description--title {
+    font-size: 43.2px;
+  }
+
+  .banner--description>.description--subtitle {
+    font-size: 18px;
+  }
+
+  .h2 {
+    font-size: 0.15em;
+  }
+
+  .banner--description>.description--text {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 480px) {
+
 }
